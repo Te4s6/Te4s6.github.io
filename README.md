@@ -26,15 +26,6 @@
         </font>
     </p>
     <hr>
-    <blockquote>
-        single blockquote
-        <blockquote>
-            double blockquote
-            <blockquote>
-                triple blockquote
-            </blockquote>
-        </blockquote>
-    </blockquote>
     <p>
         what is CL?
     </p>
@@ -135,6 +126,16 @@
                             </ol>
                         </li>
                     </ul>
+                    blockquotes
+                    <blockquote>
+                        single blockquote
+                        <blockquote>
+                            double blockquote
+                            <blockquote>
+                                triple blockquote
+                            </blockquote>
+                        </blockquote>
+                    </blockquote>
                 </li>
                 <li>
                     CSS
@@ -240,7 +241,7 @@
     Extra resources:
     <br>
     <a href="https://www.onlinegdb.com">
-        ononlinegdb
+        onlinegdb
     </a>
     <br>
     <a href="https://www.w3schools.com/">
