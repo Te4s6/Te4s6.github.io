@@ -201,9 +201,12 @@
         <input type="submit" value="submit">
     </form>
     <code>
-        for i in range(10):
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+        <p>
+            for i in range(10):
+        </p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+        </p>
     </code>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9SW_99wedRRjOxaujz9XE98GcuzwNCT0Lk_XLC12xQ&s.jpg">
 </html>
