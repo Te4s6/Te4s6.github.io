@@ -10,8 +10,11 @@
     <p align="center">
         <font size="20">
             <i>
+                <s>
+                    Hi everyone!
+                </s>
                 <u>
-                    Hi everyone! Nice to meet you!
+                    Nice to meet you!
                 </u>
             </i>
         </font>
@@ -23,6 +26,15 @@
         </font>
     </p>
     <hr>
+    <blockquote>
+        single blockquote
+        <blockquote>
+            double blockquote
+            <blockquote>
+                triple blockquote
+            </blockquote>
+        </blockquote>
+    </blockquote>
     <p>
         what is CL?
     </p>
@@ -57,13 +69,83 @@
             database
         </li>
     </ol>
+    Example of lists (color gradient)
+    <br>
+    <ul>
+        <li>
+            <font color="#ff0000">
+                Red
+            </font>
+            <ol>
+                <li>
+                    <font color="ff8000">
+                        Orange
+                    </font>
+                </li>
+                <li>
+                    <font color="ffff00">
+                        Yellow
+                    </font>
+                </li>
+                <li>
+                    <font color="80ff00">
+                        Light green
+                    </font>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <font color="00ff00">
+                Green
+            </font>
+            <ol>
+                <li>
+                    <font color="00ff80">
+                        Green-blue
+                    </font>
+                </li>
+                <li>
+                    <font color="00ffff">
+                        Cyan
+                    </font>
+                </li>
+                <li>
+                    <font color="0080ff">
+                        Light blue
+                    </font>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <font color="0000ff">
+                Blue
+            </font>
+            <ol>
+                <li>
+                    <font color="8000ff">
+                        Purple
+                    </font>
+                </li>
+                <li>
+                    <font color="ff00ff">
+                        Pink
+                    </font>
+                </li>
+                <li>
+                    <font color="ff0080">
+                        Pinkish red
+                    </font>
+                </li>
+            </ol>
+        </li>
+    </ul>
     <p>
         This is the mark allocation
     </p>
     <table>
         <tr>
             <th>
-                /
+                \
             </th>
             <th>
                 CA
@@ -82,25 +164,25 @@
             <th>
                 First term
             </th>
-            <td rowspan="2">
+            <td rowspan="2" align="center">
                 10%
             </td>
-            <td rowspan="2">
+            <td rowspan="2" align="center">
                 10%
             </td>
-            <td rowspan="2">
-                80%
+            <td rowspan="2" align="center">
+                    80%
             </td>
-            <td>
-                40%
+            <td align="right">
+                    40%
             </td>
         </tr>
         <tr>
             <th>
                 Second term
             </th>
-            <td>
-                60%
+            <td align="right">
+                    60%
             </td>
         </tr>
     </table>
@@ -118,4 +200,10 @@
         <br>
         <input type="submit" value="submit">
     </form>
+    <code>
+        for i in range(10):
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+    </code>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9SW_99wedRRjOxaujz9XE98GcuzwNCT0Lk_XLC12xQ&s.jpg">
 </html>
