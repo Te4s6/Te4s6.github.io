@@ -40,19 +40,13 @@
     </p>
     <ul>
         <li>
-            <font color="#ff0000">
-                coding
-            </font>
+            coding
         </li>
         <li>
-            <font color="#ff8800">
-                logical thinking
-            </font>
+            logical thinking
         </li>
         <li>
-            <font color="#fffb00">
-                problem-solving
-            </font>
+            problem-solving
         </li>
     </ul>
     <p>
@@ -64,81 +58,119 @@
         </li>
         <li>
             web
+            <br>
+            coding languages:
+            <br>
+            <ul>
+                <li>
+                    html
+                    <br>
+                    Example of lists (color gradient)
+                    <br>
+                    <ul>
+                        <li>
+                            <font color="#ff0000">
+                                Red
+                            </font>
+                            <ol>
+                                <li>
+                                    <font color="ff8000">
+                                        Orange
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="ffff00">
+                                        Yellow
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="80ff00">
+                                        Light green
+                                    </font>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <font color="00ff00">
+                                Green
+                            </font>
+                            <ol>
+                                <li>
+                                    <font color="00ff80">
+                                        Green-blue
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="00ffff">
+                                        Cyan
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="0080ff">
+                                        Light blue
+                                    </font>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <font color="0000ff">
+                                Blue
+                            </font>
+                            <ol>
+                                <li>
+                                    <font color="8000ff">
+                                        Purple
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="ff00ff">
+                                        Pink
+                                    </font>
+                                </li>
+                                <li>
+                                    <font color="ff0080">
+                                        Pinkish red
+                                    </font>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    CSS
+                    <br>
+                    Example:
+                    <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+            body {background-color:#111111;}
+            h1 {color:#0080ff; font-family:brush script;}
+            p {color:#ffff00; text-align:center; font-size:5px;}
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;h1&gt;
+        My CL Project
+    &lt;/h1&gt;
+    &lt;hr&gt;
+    &lt;p&gt;
+        This is my first CL project!
+    &lt;/p&gt;
+&lt;/html&gt;
+                        </code>
+                    </pre>
+                    <button onclick="CSSExample()">
+                        Try it!
+                    </button>
+                </li>
+            </ul>
         </li>
         <li>
             database
         </li>
     </ol>
-    Example of lists (color gradient)
-    <br>
-    <ul>
-        <li>
-            <font color="#ff0000">
-                Red
-            </font>
-            <ol>
-                <li>
-                    <font color="ff8000">
-                        Orange
-                    </font>
-                </li>
-                <li>
-                    <font color="ffff00">
-                        Yellow
-                    </font>
-                </li>
-                <li>
-                    <font color="80ff00">
-                        Light green
-                    </font>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <font color="00ff00">
-                Green
-            </font>
-            <ol>
-                <li>
-                    <font color="00ff80">
-                        Green-blue
-                    </font>
-                </li>
-                <li>
-                    <font color="00ffff">
-                        Cyan
-                    </font>
-                </li>
-                <li>
-                    <font color="0080ff">
-                        Light blue
-                    </font>
-                </li>
-            </ol>
-        </li>
-        <li>
-            <font color="0000ff">
-                Blue
-            </font>
-            <ol>
-                <li>
-                    <font color="8000ff">
-                        Purple
-                    </font>
-                </li>
-                <li>
-                    <font color="ff00ff">
-                        Pink
-                    </font>
-                </li>
-                <li>
-                    <font color="ff0080">
-                        Pinkish red
-                    </font>
-                </li>
-            </ol>
-        </li>
-    </ul>
     <p>
         This is the mark allocation
     </p>
@@ -200,13 +232,34 @@
         <br>
         <input type="submit" value="submit">
     </form>
-    <code>
-        <p>
-            for i in range(10):
-        </p>
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;print(i)
-        </p>
-    </code>
+    <p>
+        Good Luck! You Can Do It!
+    </p>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9SW_99wedRRjOxaujz9XE98GcuzwNCT0Lk_XLC12xQ&s.jpg">
+    <br>
+    Extra resources:
+    <br>
+    <a href="https://www.onlinegdb.com">
+        ononlinegdb
+    </a>
+    <br>
+    <a href="https://www.w3schools.com/">
+        w3school
+    </a>
+    <br>
+    <a href="https://github.com/">
+        github
+    </a>
+    <br>
+    <a href="https://stackoverflow.com/questions">
+        stackoverflow
+    </a>
+    <hr>
+    <a href="https://github.com/Te4s6/Te4s6.github.io">
+        source code
+    </a>
+    <script>
+        function CSSExample()
+        {location.replace("https://onlinegdb.com/kVBokRwwS")}
+    </script>
 </html>
