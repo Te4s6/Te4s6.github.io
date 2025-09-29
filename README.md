@@ -1,4 +1,8 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="Style1.css">
+    </head>
     <h1>
         <b>
             Hi everyone!
